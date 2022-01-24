@@ -1,0 +1,7 @@
+Prueba práctica Front/react
+Autor: Hernán Javier Guio Carrillo 
+Hola!, estos son los entregables de la prueba :
+* Código construido en React JS
+* Archivos compilados por Webpack para producción
+* Pruebas con Jest y Cypress
+* Pantalla de Inicio de sesión, registro, creación de usuarios y lista de usuarios

@@ -1,0 +1,87 @@
+
+.divContainer_create_user {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.create_user {
+  background-image: linear-gradient(#0077ff, #54a893);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30px;
+
+  height: 100%;
+}
+
+.create_user__container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 40px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 50vh;
+  padding: 7vmin 7vmin 5vmin;
+  width: 50vmin;
+  justify-content: center;
+    align-items: center;
+}
+
+.create_user__container--form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.create_user_input {
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  height: 5vmin;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.create_user_button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Muli", sans-serif;
+  height: 7vmin;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
+.contentUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  margin-left: 2%;
+}
+
+.logoUser{
+  width: 8vmin;
+  margin-left: auto;
+  margin-right: auto;
+}
